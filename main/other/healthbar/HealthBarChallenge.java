@@ -1,3 +1,4 @@
+package main.other.healthbar;
 public class HealthBarChallenge
 {
     public static void main(String[] args)
