@@ -1,7 +1,5 @@
 package main.other.healthbar;
 
-import java.math.*;
-
 public class Solution
 {
     public Solution()
@@ -9,11 +7,13 @@ public class Solution
     }
 
     /**
-    * Calculate minimum health required to survive the postive and negative hitpoints in passed in array.
+    * Calculate minimum health required to survive the postive and negative 
+    * hitpoints froms passed in array.
     */
     public int calculateMinimumHealth(int[] points)
     {        
-        int currentDamage = maxDamage = 0;
+        int currentDamage = 0; 
+        int maxDamage = 0;
 
         for (int point : points)
         {
